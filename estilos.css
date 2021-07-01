@@ -262,10 +262,10 @@ body {
 }
 
 .carrito1{
-    min-height: 80vh;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
+    
+margin: 0 auto;
+     width: 100%;
+
 }
 
 .table__productos {
@@ -452,26 +452,46 @@ body {
         width: 100%; 
 
     }
+    .table tr {
+        display: flex;
+        flex-direction:  column;
+
+    }
+
+    
+    .table__productos {
+        display: flex;
+        flex-direction:  column;
+
+    }
+
+    .tr {
+        display: flex;
+        flex-direction:  column;
+
+    }
+
+    .table__cantidad {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 
-    .carrito1{
-        width: 100%;
-    }
-   
-    .table {
-        width: 100%;
-    }
+
+
 
 
 }
 
 
 
-@media screen and (max-width: 200px) {
+
+@media screen and (max-width: 30em) {
 	body {
 		width: 100%;
 		height: 100%;
-		background-color: black;
+		
 	}
 
     .carrito1{
@@ -480,6 +500,23 @@ body {
 
     .table {
         width: 100%;
+    }
+
+    .table__productos {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .tr {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .table__cantidad {
+        display: flex;
+        flex-direction: row;
     }
 
 
